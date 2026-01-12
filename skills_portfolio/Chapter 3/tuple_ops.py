@@ -1,0 +1,6 @@
+tuple_1 = (2, 0, 0, 7)
+tuple_2 = (2, 0, 0, 9)
+print(tuple_1 + tuple_2)
+print(tuple_1 * 3)
+print(tuple_1 == tuple_2)
+print(len(tuple_2))
