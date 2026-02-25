@@ -82,6 +82,6 @@ while True:
 
     extra = input("Would you like to buy another item? (y/n): ").lower()
     if extra != 'y':
-        if selected_item == 'n':
+        if extra == 'n':
             print("Thank you for using the vending machine. Goodbye!")
         break
